@@ -26,7 +26,8 @@ app.use('/api/', limiter);
 
 const allowedOrigins = [
   process.env.CLIENT_URL || "http://localhost:3000",
-  "https://g3svl6qz-3000.inc1.devtunnels.ms"
+  "https://g3svl6qz-3000.inc1.devtunnels.ms",
+  "https://realtime-chat-app-seven-psi.vercel.app" // Vercel Live URL
 ];
 
 app.use((req, res, next) => {
