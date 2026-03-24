@@ -211,7 +211,7 @@ export default function Sidebar({ onSelectUser, selectedUser }) {
   };
 
   return (
-    <div className="w-full md:w-80 bg-white dark:bg-zinc-950 border-r border-gray-200 dark:border-zinc-800 flex flex-col h-full transition-colors">
+    <div className="w-full md:w-80 bg-white dark:bg-zinc-950 border-r rounded-r-2xl border-gray-200 dark:border-zinc-800 flex flex-col h-full transition-colors">
       <div className="p-4 border-b border-gray-200 dark:border-zinc-800 flex items-center justify-between">
         <Link href="/profile" className="flex items-center space-x-3 hover:opacity-80 transition-opacity cursor-pointer">
           {user?.avatar ? (
